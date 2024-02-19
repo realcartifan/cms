@@ -1,0 +1,1 @@
+//robiłem baze danch na lekcji 
