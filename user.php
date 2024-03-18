@@ -51,5 +51,5 @@ if($userRow == null ){
 <label for="passwordRepeat">Hasło; </label>
 <input type="password" name="password" id="passwordRepeat">
 <input type="submit" value="Zaloguj">
-   
+   46 minuta
 </form>
