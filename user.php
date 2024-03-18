@@ -1,5 +1,5 @@
 <?php
-if (isset($_REQUEST['email']) && isset $_REQUEST['password'])){
+if (isset($_REQUEST['email']) && isset( $_REQUEST['password'])){
 //$password = "tajnehasło";
 //$hash = password_hash($password, PASSWORD_ARGON2I);
 //echo $hash;
@@ -34,11 +34,22 @@ if($userRow == null ){
 
 ?>
 
-<form action="user.php"method="get">
+<form action="user.php"method="post">
 <label for="emailimput">Email:</label>
 <input type="email" name="email" id="emailimput">
 <label for="passwordinput">Hasło; </label>
 <input type="password" name="password" id="passwordimput">
 <input type="submit" value="Zaloguj">
 
+</form>
+
+<h1>Zarajestruj się </h1>
+<form action="user.php"method="post">
+<form action="user.php"method="post">
+<label for="emailimput">Email:</label>
+<input type="email" name="email" id="emailimput">
+<label for="passwordRepeat">Hasło; </label>
+<input type="password" name="password" id="passwordRepeat">
+<input type="submit" value="Zaloguj">
+   
 </form>
